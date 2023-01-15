@@ -32,18 +32,7 @@ bool isPalindrome(int digit){
         rev = rev * 10 + lastDigit;
         temp = temp/10;
     }
-
-    // if(rev == digit)
-    //  {
-    //     cout << "Given number is palidrome" <<endl;;
-    //     return (rev == digit);
-    //  }
-    //  else {
-    //     cout << "Given number is not palidrome" <<endl;;
-    //     return (rev != digit);
-    //  }
-    
-    return (rev == digit);
+  return (rev == digit);
 }
 
 
